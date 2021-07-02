@@ -1,0 +1,77 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="day1.Array\ExampleArray.cs" />
+    <Compile Remove="day1.Array\ExampleArrays.cs" />
+    <Compile Remove="day1.ControlStatements\ExampleControl.cs" />
+    <Compile Remove="day1.DataTypes\ExampleData.cs" />
+    <Compile Remove="day1.InputOutput\ExampleTextFrequency.cs" />
+    <Compile Remove="day1.InputOutput\ExampleTextSplit.cs" />
+    <Compile Remove="day1.InputOutput\InputOutput.cs" />
+    <Compile Remove="day1.Operators\ExampleOperator2.cs" />
+    <Compile Remove="day1.Operators\ExampleOperators.cs" />
+    <Compile Remove="day2.Coding\Binary.cs" />
+    <Compile Remove="day2.Coding\CapsLock.cs" />
+    <Compile Remove="day2.Coding\Digit.cs" />
+    <Compile Remove="day2.Coding\Football.cs" />
+    <Compile Remove="day2.Coding\FootballWinner.cs" />
+    <Compile Remove="day2.Coding\FreeCash.cs" />
+    <Compile Remove="day2.Coding\String.cs" />
+    <Compile Remove="day2.Coding\UserName.cs" />
+    <Compile Remove="day2.Coding\Weight.cs" />
+    <Compile Remove="day2.MyCoding\BeautifulMatrix.cs" />
+    <Compile Remove="day2.MyCoding\Bit.cs" />
+    <Compile Remove="day2.MyCoding\BoyOrGirl.cs" />
+    <Compile Remove="day2.MyCoding\Captialization.cs" />
+    <Compile Remove="day2.MyCoding\DominoPiling.cs" />
+    <Compile Remove="day2.MyCoding\Elephant.cs" />
+    <Compile Remove="day2.MyCoding\HelpfulMaths.cs" />
+    <Compile Remove="day2.MyCoding\LongWords.cs" />
+    <Compile Remove="day2.MyCoding\MishaGame.cs" />
+    <Compile Remove="day2.MyCoding\NextRound.cs" />
+    <Compile Remove="day2.MyCoding\SoldiersAndBanana.cs" />
+    <Compile Remove="day2.MyCoding\StonesTable.cs" />
+    <Compile Remove="day2.MyCoding\Team.cs" />
+    <Compile Remove="day2.MyCoding\Watermelon.cs" />
+    <Compile Remove="day2.MyCoding\Word.cs" />
+    <Compile Remove="day2.MyCoding\WrongSubstraction.cs" />
+    <Compile Remove="day2.MyCoding\YoungPhysicist.cs" />
+    <Compile Remove="day3.Coding\CalculateFunction.cs" />
+    <Compile Remove="day3.Coding\ChatRoom.cs" />
+    <Compile Remove="day3.Coding\Divisibilty.cs" />
+    <Compile Remove="day3.Coding\Divisibilty2.cs" />
+    <Compile Remove="day3.Coding\Drinks.cs" />
+    <Compile Remove="day3.Coding\HQ9.cs" />
+    <Compile Remove="day3.Coding\LuckyDivision.cs" />
+    <Compile Remove="day3.Coding\Pangram.cs" />
+    <Compile Remove="day3.Coding\QueueSchool.cs" />
+    <Compile Remove="day3.Coding\Taxi.cs" />
+    <Compile Remove="day5.Turples\ExampleTurples.cs" />
+    <Compile Remove="day6.Generics\Point\Point.cs" />
+    <Compile Remove="day6.Generics\Point\Program.cs" />
+    <Compile Remove="day6.Generics\Question\DT1.cs" />
+    <Compile Remove="day6.Generics\Question\DT2.cs" />
+    <Compile Remove="day6.Generics\Question\DT3.cs" />
+    <Compile Remove="day6.Generics\Question\Program.cs" />
+    <Compile Remove="day6.Generics\Question\Question.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="day1.Array\" />
+    <Folder Include="day1.ControlStatements\" />
+    <Folder Include="day1.DataTypes\" />
+    <Folder Include="day1.InputOutput\" />
+    <Folder Include="day1.Operators\" />
+    <Folder Include="day2.Coding\" />
+    <Folder Include="day2.MyCoding\" />
+    <Folder Include="day5.Turples\" />
+    <Folder Include="day6.Generics\Point\" />
+    <Folder Include="day6.Generics\Question\" />
+  </ItemGroup>
+
+</Project>
